@@ -20,7 +20,8 @@
   </div>
 </template>
 
-<script>import {Selector, Field, FieldItem} from 'mand-mobile'
+<script>
+import {Selector, Field, FieldItem} from 'mand-mobile'
 
 export default {
   name: 'selector-demo',
@@ -61,7 +62,7 @@ export default {
           },
         ],
       ],
-      selectorValue: '',
+      selectorValue: '选项二',
     }
   },
   methods: {
@@ -73,4 +74,5 @@ export default {
     },
   },
 }
-</script>
+
+</script>
